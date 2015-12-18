@@ -23,7 +23,12 @@ footer {
     position: relative;
     transition: all 0.8s ease-in-out 0s;
 }
-
+.breadcrumbs-v1 span{
+    display: inline-block;
+    font-size: 24px;
+    font-weight: 200;
+    margin-bottom: 5px;
+}
 .breadcrumbs-v1 h1{
     font-size: 40px;
     line-height: 45px;
