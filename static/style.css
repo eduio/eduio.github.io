@@ -19,7 +19,7 @@ footer {
 
 .breadcrumbs-v1{
     background: rgba(0, 0, 0, 0) url("../../../static/freebie-bg.jpg") no-repeat scroll center center / cover;
-    padding: 100px 0;
+    padding: 50px 0;
     position: relative;
     transition: all 0.8s ease-in-out 0s;
 }
