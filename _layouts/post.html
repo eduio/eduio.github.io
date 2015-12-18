@@ -1,10 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Title</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>{{page.title}}</title>
+    <meta content="oxidyc,张永佳,ikms" name="author">
+    <meta content="技术,生活,积累,随笔,放飞思想,容纳世界,体验人生" name="description">
+
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../static/style.css">
+
 </head>
 <body>
+<nav class="navbar navbar-static-top navbar-dark bg-inverse">
+    <div class="container">
+        <a class="navbar-brand" href="#"><img src="../static/eduio.svg" width="35" height="35"></a>
+        <ul class="nav navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+{{content}}
+<footer>
+    <div class="container">
+        <hr>
+        <div class="row">
+            <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+                <p>&copy; 2015 AGILEFRAMEWORK.ORG</p>
+                <p>Code licensed under <a href="http://opensource.org/licenses/mit-license.html">MIT License</a>
+                    <span class="hide-xs hide-sm">·</span> Documentation licensed under
+                    <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>
+                </p>
+            </div>
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
+                <p class="pull-right">
+                    <a href="http://github.com/ikms" target="_blank"><i class="fa fa-fw fa-github fa-lg"></i></a>
+                    <a href="http://weibo.com/oxidyc" target="_blank"><i
+                            class="fa fa-fw fa-weibo fa-lg text-danger"></i></a>
+                    <!--
+                    <a href="#2260508919"><i class="fa fa-fw fa-qq fa-2x text-danger"></i></a>
+                    -->
+                </p>
+            </div>
+        </div>
+    </div>
+</footer>
 
+<!-- jQuery first, then Bootstrap JS. -->
+<script src="http://cdn.staticfile.org/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js"></script>
 </body>
 </html>
